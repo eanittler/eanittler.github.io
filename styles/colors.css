@@ -1,0 +1,156 @@
+
+.nav-item {
+    background-color: #827081;
+    color: #e7e6f7;
+}
+
+footer > p > a:hover {
+    background-color: #827081;
+    color: #33283d
+}
+
+a:hover, a:focus {
+    background-color: #c6d2ed;
+    color: #827081;
+}
+
+a:visited {
+    color: #33283d;
+}
+
+a {
+    background-color: #827081;
+    color: #e7e6f7;
+}
+
+footer > p {
+    background-color: #827081;
+    color: #e7e6f7;
+}
+
+h1 {
+    color: #33283d;
+}
+
+p {
+    color: #33283d; 
+}
+
+h2 {
+    color: #33283d; 
+}
+
+li, dt, dd {
+    color: #33283d;
+}
+
+.quote {
+    color: #33283d;
+}
+
+header ~ #omni-card2, #carn-main ~ div:nth-of-type(1), #herb-card3 {
+    background: #FFFFFF;
+    background: -webkit-linear-gradient(bottom, #FFFFFF, #e7e6f7 75%);
+    background: -moz-linear-gradient(bottom, #FFFFFF, #e7e6f7 75%);
+    background: linear-gradient(to top, #FFFFFF, #e7e6f7 75%);
+}
+
+#carrot-grey {
+    color: #aea3b0;
+}
+
+#carrot-lav {
+    color: #e7e6f7;
+}
+
+#learn-more {
+    color: #aea3b0;
+}
+
+#carn-card3 > h4, #herb-card3 > h4 {
+    color: #aea3b0;
+}
+
+h1 + h4, i + h4 {
+    color: #33283d;
+}
+
+.fa-drumstick-bite {
+    color: #e3d0d8;
+}
+
+#herb-main + img {
+    border-top-color: #827081;
+}
+
+#herb-card2 > h3 {
+    color: #33283d;
+}
+
+#herb-card2 > h5 {
+    color: #827081;
+}
+
+#herb-main > h4 {
+    color: #33283d;
+    background-color: #ededf5;
+    border-color: #827081;
+}
+
+#herb-card2 {
+    background-color: #e3d0d8;
+}
+
+#herb-main > p:nth-of-type(2) {
+    background-color: #e7e6f7;
+    border-color: #827081;
+}
+
+#herb-main > p:nth-of-type(3) {
+    background-color: #e7e6f7;
+    border-color: #827081;
+}
+
+#herb-main > dl {
+    background-color: #e7e6f7;
+    border-color: #827081;
+}
+
+#herb-card2 ~ h2 {
+    background-color: #e3d0d8;
+}
+
+#herb-main > h3 {
+    color: #33283d;
+    background-color: #e3d0d8;
+}
+
+#herb-main > h3 + p {
+    background-color: #e7e6f7;
+    border-color: #827081;
+}
+
+#herb-main > h1 {
+    border-bottom-color: #c6d2ed;
+}
+
+#herb-main > img {
+    border-color: #c6d2ed;
+}
+
+@media screen and (max-width: 844px) and (min-width: 380px) {
+    
+    #herb-main > dl {
+        background-color: #ffffff;
+    }
+
+    #herb-main > p:nth-of-type(2) {
+        background-color: #ffffff;
+    }
+
+    #herb-main > p:nth-of-type(3) {
+        background-color:  #ffffff;
+    }
+
+}
+ 

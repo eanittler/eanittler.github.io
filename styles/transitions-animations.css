@@ -1,0 +1,33 @@
+
+a {
+    transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+    transition-delay: 100ms;
+}
+
+#carrot-lav {
+    transform: rotate(-80deg);
+}
+
+.fa-drumstick-bite {
+    animation-name: rotate;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    
+    from{
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
